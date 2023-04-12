@@ -1,0 +1,17 @@
+A tested version of Search & Download has been created, named "Search_&_Download-Python-new-testable-example.ipynb"
+Modifications were made to handle our example dataset and improve error messages, but the core features of the notebook remain unchanged. 
+
+After cloning the repository, navigate to the directory "demo-notebooks"
+
+You must first install Pytest and nbval, using:
+
+```pip install pytest```
+
+then 
+
+```pip install nbval```
+
+Open "secrets.txt": enter your authentication token and save the file 
+
+- Navigate to the "demo-notebooks" directory 
+Enter the command: ```pytest --nbval "Search_&_Download-Python-new-testable-example.ipynb"```
