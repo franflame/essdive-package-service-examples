@@ -15,3 +15,5 @@ Open "secrets.txt": enter your authentication token and save the file
 
 - Navigate to the "demo-notebooks" directory 
 Enter the command: ```pytest --nbval "Search_&_Download-Python-new-testable-example.ipynb"```
+
+The tests will now run, and then conclude with a detailed record of passed and failed tests
